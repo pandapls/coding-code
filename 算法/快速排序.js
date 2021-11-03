@@ -14,6 +14,7 @@ function quickSort(arr,L,R){
     return arr
 }
 
+// 获取基准点
 function partition(arr, left, right){
     let pivot = left; //选取以left为基准点
     let index = pivot+1;
@@ -29,6 +30,7 @@ function partition(arr, left, right){
 
 }
 
+// 置换元素位置
 function swap(arr,i,j){
     console.log(i,j,'i,j')
     let temp = arr[i]
